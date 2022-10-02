@@ -68,7 +68,7 @@ class AutoPP {
         let username = settings.appendChild(GUI.newInput(this.username, 'Username or ID'));
         username.style.marginBottom = "15px";
 
-        // intervel
+        // intervel 
         settings.appendChild(GUI.newLabel("Interval between each check (ms)"));
         let timeout = settings.appendChild(GUI.newNumericInput(this.intervalTime, `cannot be lower than ${this.lowestInterval}`));
         timeout.style.marginBottom = "15px";
